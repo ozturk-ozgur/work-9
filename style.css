@@ -1,0 +1,49 @@
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  background-color: #e0e5ec;
+}
+
+.container i {
+  padding-right: 0.5rem;
+}
+
+.container {
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  height: 1000px;
+  align-items: center;
+}
+
+.container div {
+  cursor: pointer;
+  display: flex;
+  height: 100px;
+  width: 100px;
+  margin: 3rem;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s ease;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px #8b8bbb60, -10px -10px 60px #ffffff;
+}
+
+.container div:hover {
+  color: rgb(243, 101, 122);
+  box-shadow: inset 5px 5px 10px #8b8bbb60, inset -5px -5px 10px #ffffff;
+}
